@@ -40,8 +40,13 @@ ul{
 .dropdown-menu .welcome{
     display: flex;
     justify-content: center;
-    width: 100%;
-    color: #2B3699;
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    margin-top: 0.5rem;
+    background-color: #2B3699;
+    padding: 5px;
+    border-radius: 10px;
 }
 .dropdown-menu .but{
     display: flex;
@@ -56,10 +61,13 @@ ul{
     color: #fff;
     border: 0;
     border-radius: 10px;
+    margin-top: 0.5rem;
     /* width: 40%; */
     padding: 5px 8px;
+    /* outline: 2px solid red; */
     
 }
+
 .dropdown-menu .register{
     outline: 0;
     background-color: #2B3699;
@@ -137,7 +145,7 @@ a:active {
     background-color: #fff;
   }
   .first{
-    box-shadow: 10px 10px 10px #dcd8d8;;
+    box-shadow: 10px 10px 10px #dcd8d8;
     padding-bottom: 2rem;
     /* background-color: #fff; */
   }
@@ -266,23 +274,28 @@ a:active {
 }
 .welcome{
   width: 97%;
-  height: 50vh;
   display: flex;
+  justify-content: center;
   background-color: #2B3990;
-  margin-top: 3rem;
   margin-left: 2rem;
+  /* color: #fff; */
+  margin-top: 2rem;
+
+
+  padding: 5px;
   align-items: center;
   border-radius: 10px;
+
 }
 .welcometxt{
   width: 10%;
   margin-left: 2rem;
 }
 .welcome h6{
-  color: #FFF;
+  color: #fff;
 }
 .welcome .get{
-  color: #FFF;
+  color: #fff;
 }
 .price{
   width: 100%;
@@ -300,7 +313,7 @@ a:active {
 .price p{
   /* outline: 2px solid blue; */
   text-decoration: line-through;
-  font-size: 10px;
+  font-size: 13px;
 }
 .bagis{
   display: flex;
@@ -453,11 +466,12 @@ a:active {
   font-weight: 400;
   line-height: normal;
 }
+
 .dropdown-item{
   color: var(--blue-800, #1D2661);
-  text-align: center;
+  text-align:start;
   font-family: Lato;
-  font-size: 23.128px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

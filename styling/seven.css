@@ -1,0 +1,32 @@
+.girly{
+    width: 240px;
+    padding-top: 5rem;
+    /* outline: 2px solid red; */
+    margin-right: 6rem;
+}
+.girly img{
+    width: 100%;
+}
+.circle{
+    width: 20%;
+    top: 1rem;
+    position: absolute;
+    left: 59.1%;
+    
+    
+}
+.circle img{
+    width: 100%;
+
+}
+.handing{
+    position: relative;
+    background-color: #9B622C;
+}
+.text h4{
+    color: #fff;
+}
+.handing p{
+    color: #fff;
+}
+

@@ -54,3 +54,220 @@ body{
     margin-top: 2rem;
     align-items: center;
 }
+.dropi{
+  width: 95%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: end;
+  margin-top: 1rem;
+}
+.overall {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    /* background-color: aqua; */
+  }
+  .sidebar{
+    
+    /* outline: 2px solid red; */
+    width: 20%;
+    background-color: #FFF;
+    margin-top: 3rem;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  .sidebar ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: auto;
+  }
+  .sidebar li{
+    list-style: none;
+    padding-top: 10px;
+
+  }
+  .sidebar li a{
+    text-decoration: none;
+    color: black;
+
+  }
+  .brand h6 {
+    font-size: 20px;
+    padding-top: 1rem;
+    /* padding-left: 10px; */
+    /* background-color: aqua; */
+  }
+  .product h5 {
+    font-size: 20px;
+    padding-top: 1rem;
+    /* padding-left: 10px; */
+    /* background-color: aqua; */
+    width: 100%;
+  }
+  
+  .search {
+    width: 100%;
+    /* padding: 10px; */
+  }
+  
+  #sech {
+    height: 6vh;
+    border-radius: 5px;
+    /* border: none; */
+    outline: none;
+    border: 1px solid rgb(50, 50, 184);
+    padding-left: 20px;
+    width: 100%;
+  
+  }
+  form{
+    /* width: 90%; */
+    margin-top: 1rem;
+  }
+  .container{
+    margin-top: 3.0rem;
+    background-color: #fff;
+    padding: 15px;
+    /* outline: 2px solid red; */
+    width: 84%;
+    margin-left: 2%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .card{
+    width: 18rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    background-color: #fff;
+    padding: 15px;
+    height: 498px;
+   
+  
+
+  }
+  .card-body{
+   
+}
+
+.card-title{
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.prices{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+  }
+  .prices h4{
+    color: #0E0F43;
+    text-align: center;
+    font-family: Lato;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  
+  }
+  .prices p{
+    text-decoration: line-through;
+  
+  }
+  .ship{
+    color: #9B622C;
+    /* text-align: center; */
+    font-family: Lato;
+    font-size: 11px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 5px;
+  }
+ .card .btn{
+    font-display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: var(--blue-600, #2B3991);
+  }
+ .card .bot{
+    font-display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--blue-600, #2B3991);
+    color: var(--blue-600, #2B3991);
+    background-color: #FFF;
+  }
+  .checked {
+    color: #2B3991;
+  }
+  .number{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+    margin-top: 1rem;
+  }
+  .btn-group{
+   margin-left: 1rem;
+  }
+  .btn-group .boti{
+    border-radius: 3.174px;
+    border: 1.058px solid var(--grey-500, #4D4B4B);
+   color: #000;
+  }
+  .botiy{
+    color: #000;
+    border-radius: 3.174px;
+    border: 1.058px solid var(--orange-600, #F7941D);
+  }
+  .recent{
+    background-color: #FFF;
+    width: 90%;
+    margin: auto;
+    height: 85vh;
+     margin-top: 1.5rem;
+  }
+  .view{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    /* outline: 2px solid red; */
+    padding-top: 1rem;
+   
+  }
+  .view h6{
+    text-align: center;
+    align-items: center;
+     
+
+  }
+  .cardi{
+    height: 66vh;
+  }
+  .contain{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+
+
+    
