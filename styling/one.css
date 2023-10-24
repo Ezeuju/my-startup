@@ -3,15 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+  overflow: hidden;
+}
 body{
     width: 100%;
     height: 100%;
     background-color: #d3cfdb4b;
+    /* overflow-x: hidden; */
 }
 header{
     width: 100%;
     /* background-color: #fff; */
     
+}
+#navbar{
+  /* display: none; */
+}
+#mobile{
+  display: none;
 }
 nav{
     display: flex;
@@ -19,6 +29,23 @@ nav{
     margin: auto;
     padding-top: 2rem;
 }
+nav li a:hover,
+nav li a.active{
+    color: #F7941D;
+}
+nav li a.active::after,
+nav li a:hover::after{
+    content: '';
+    display: block;
+    width: 40%;
+    height: 2px;
+    background-color: #F7941D;
+    bottom: -4px;
+    position: absolute;
+    left: 20px;
+}
+
+
 ul{
     width: 60%;
     margin-left: 40%;
@@ -48,6 +75,7 @@ ul{
     padding: 5px;
     border-radius: 10px;
 }
+
 .dropdown-menu .but{
     display: flex;
     justify-content: space-between;
@@ -89,9 +117,15 @@ ul{
 a:active {
     color: #F7941D;
 }
+.top li:hover{
+  background-color: #f0f0f0;
+  /* position: relative; */
+}
 .top li a{
     text-decoration: none;
     color: #2B3699;
+    transition: 0.3s ease;
+    position: relative;
 }
 .bar-one {
     display: flex;
@@ -102,9 +136,10 @@ a:active {
   }
   
   .search {
-    width: 100%;
+    width: 90%;
     padding-top: 1rem;
-  
+    z-index:10;
+
   
   }
   
@@ -126,6 +161,8 @@ a:active {
     width: 40px;
     margin-top: 10px;
     margin-left: 10px;
+    z-index:10;
+
   }
   
   .cir {
@@ -272,7 +309,7 @@ a:active {
   background: #F3EDED;
   padding: 10px;
 }
-.welcome{
+.welcomedear{
   width: 97%;
   display: flex;
   justify-content: center;
@@ -291,10 +328,10 @@ a:active {
   width: 10%;
   margin-left: 2rem;
 }
-.welcome h6{
+.welcomedear h6{
   color: #fff;
 }
-.welcome .get{
+.welcomedear .get{
   color: #fff;
 }
 .price{
@@ -457,8 +494,8 @@ a:active {
 .para{
   color: #fff;
 }
-.fasbtn{
-  color: #FFF;
+.fasbtn {
+  color: #FFF !important;
   text-align: center;
   font-family: Lato;
   font-size: 30px;
@@ -574,4 +611,240 @@ form .submit{
 
 }
 
+/* MEDIA QUERY */
+@media (max-width:1000px){
+  nav{
+    width: 90%;
+    /* outline: 2px solid red; */
+  }
+  #navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 90%;
+    background-color:red;
+    display:none;
+    z-index:100;
+    /* margin-left: 40%; */
+    margin: auto;
+    padding-top: 2rem;
+    /* outline: 2px solid red; */
+    position: absolute;
+    top: 14vh;
+    left:0;
+    height: 90vh;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 40px 60px rgba(0,0,0, 0.1);
+    padding: 80px 0 0 10px;
+    border-radius: 0px 0px 10px 10px;
+    /* transition: 0.3s; */
+    /* display: none; */
+}
+#close{
+  display: none;
+  top: 3rem;
+  right: 2rem;
+  position: absolute;
+}
+
+.logo{
+  width: 40px;
+  z-index:10;
+
+  /* margin-left: 1.6rem; */
+  /* margin-bottom: 25px; */
+}
+#bar{
+  display: block;
+  top: 3rem;
+  right: 2rem;
+  z-index:10;
+  position: absolute;
+  /* background-color: aqua; */
+}
+
+.top{
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+.top li{
+  margin-bottom: 25px;
+}
+.dropdown-toggle{
+  color: #2B3699;
+  margin-bottom: 25px;
+ }
+.dropdown-toggle:hover{
+  color: #2B3699;
+  margin-bottom: 25px;
+ }
+#mobile{
+  display: block;
+}
+#navbar.active{
+  right: 0px;
+
+}
+.overall{
+  width: 90%;
+  display:flex;
+  flex-direction: column;
+}
+.sidebar{
+  width: 90%;
+  margin: auto;
+  padding-top: 2rem;
+  margin-top: 2rem;
+}
+
+.sec{
+  width: 90%;
+  margin: auto;
+}
+.alert-primary{
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  height: 30vh;
+}
+.carousel{
+  width: 90%;
+  margin: auto;
+  display: none;
+  /* height: auto;  */
+  /* outline: 2px solid red; */
+} 
+.carousel-inner{
+ max-width: 90%;
+  /* height: 200vh; */
+ /* outline: 2px solid red; */
+ display: flex;
+ /* flex-direction: column; */
+}
+.text{
+  padding: 0;
+  padding-left: 0;
+  padding-top: 0;
+  border-radius: 0px 10rem 10rem 0px;
+  width: 40%;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  /* display: none; */
+}
+.shop{
+  margin-top: 3rem;
+}
+.girl{
+  width: 50%;
+}
+.welcomedear{
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  height: 150vh;
+  margin-top: 2rem;
+}
+.welcometxt{
+  margin-left: 4rem;
+  width: 100%;
+ 
+}
+.bagis{
+  flex-direction: column;
+  margin-left: 0;
+}
+.baggy{
+  width: 100%;
+  margin-bottom: 2rem;
+ 
+}
+.hottest{
+  height: auto;
+}
+.offer{
+  flex-direction: column;
+  padding-bottom: 2rem;
+  margin-bottom: 0;
+}
+.item{
+  width: 100%;
+  margin-left: 0;
+}
+.fashion{
+  height: auto;
+}
+.dis{
+  width: 100%;
+  /* font-size: 20px; */
+}
+.dis h2{
+  font-size: 23px;
+}
+.whole{
+  height: auto;
+}
+.peach{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+.peach .item{
+  width: 100%;
+}
+.back{
+  /* width: 100%; */
+}
+form .enter{
+  width: 60%;
+}
+form .submit{
+  width: 40%;
+  padding: 0px 2px 0rem 2px;
+
+}
+.links{
+  width: 100%;
+  flex-direction: column;
+}
+.footer{
+  width: 100%;
+}
+.white{
+  width: 90% !important;
+  /* outline: 2px solid red; */
+}
+.white p{
+  width: 90%;
+  margin-top: 2rem;
+}
+.money{
+  width: 90% !important;
+}
+.logowhite{
+  width: 20%;
+
+}
+.pay{
+  flex-direction: column;
+}
+.join{
+  width: 90%!important;
+  /* outline: 2px solid red; */
+  padding-top: 10px;
+}
+.socials{
+  width: 60% !important;
+  /* outline: 2px solid red; */
+}
+.paymoney{
+  padding-top: 10px;
+  width: 90% !important;
+}
+.payi{
+  width: 60%  !important;
+}
+}
  

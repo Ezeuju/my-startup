@@ -10,9 +10,13 @@
     margin: auto;
     padding-top: 5%;
     /* height: 80vh; */
+    /* outline: 2px solid red; */
   }
   .logowhite{
-    width: 80px;
+    width: 15%;
+  }
+  .logowhite img{
+    width: 100%;
   }
   .white{
     width: 30%;
@@ -23,10 +27,14 @@
     list-style: none;
     width: 20%;
     color: #fff;
+    margin-top: 4rem;
   }
   .money a{
     text-decoration: none;
     color: #fff;
+  }
+  .money a:hover{
+    color: #F7941D;
   }
   .pay{
     width: 90%;
