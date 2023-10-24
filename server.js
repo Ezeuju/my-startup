@@ -2,8 +2,9 @@
 //imports
 const mongoose=require("mongoose");
 const express=require("express");
-const cookie=require("cookie-parser");
+const session=require("express-session");
 const router=require("./routes/mainRouter");
+const morgan=require("morgan");
 
 require("dotenv").config({path:"./config.env"});
 
@@ -15,6 +16,13 @@ app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 app.set("view engine", "ejs")
 app.use("/", router);
+app.use(morgan("dev"));
+app.use(session({
+  secret: process.env.SESSION_KEY,
+  resave: false,
+  saveUninitialized:true,
+  cookie:{secure:false}
+}))
 
 // Martins, please set up cookie parser
 
