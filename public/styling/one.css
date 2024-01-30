@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 html{
-  overflow: hidden;
+  /* overflow-x: hidden; */
 }
 body{
     width: 100%;
     height: 100%;
     background-color: #d3cfdb4b;
-    /* overflow-x: hidden; */
+    
 }
 header{
     width: 100%;
