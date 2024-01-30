@@ -1,0 +1,51 @@
+.bar-twix{
+    width: 15%;
+}
+.handing{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #E7E7E7;
+}
+.handing .text{
+    margin-left: 3rem;
+}
+.handing .pics{
+    width: 30%;
+}
+.handing .pics img{
+    width: 100%;
+}
+.handing h4{
+    color: var(--blue-800, #1D2661);
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.handing p{
+    color: var(--blue-800, #1D2661);
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.handing .shop{
+    display: flex;
+    width: 217px;
+    height: 58px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--blue-600, #2B3991);
+    outline: 0;
+    border: 0;
+    color: #fff;
+}

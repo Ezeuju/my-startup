@@ -1,0 +1,80 @@
+.footer{
+    background-color: #2b3991;
+    height: auto;
+    margin-top: 3rem;
+  }
+  .links{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 5%;
+    /* height: 80vh; */
+    /* outline: 2px solid red; */
+  }
+  .logowhite{
+    width: 15%;
+  }
+  .logowhite img{
+    width: 100%;
+  }
+  .white{
+    width: 30%;
+    color: #fff;
+  }
+  .money{
+    text-decoration: none;
+    list-style: none;
+    width: 20%;
+    color: #fff;
+    margin-top: 4rem;
+  }
+  .money a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .money a:hover{
+    color: #F7941D;
+  }
+  .pay{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 1rem;
+  }
+  .join{
+    
+    width: 30%;
+  }
+  .socials{
+    display: flex;
+    width: 43%;
+    justify-content: space-between;
+    /* outline: 2px solid red; */
+  }
+  .payi{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+  }
+  .paymoney{
+    /* outline: 2px solid red; */
+    width: 66%;
+  }
+  .linett{
+    width: 100%;
+    height: 1px;
+    background-color: orange;
+    margin-top: 2rem;
+  }
+  .line{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+  

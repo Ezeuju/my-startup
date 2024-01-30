@@ -1,0 +1,23 @@
+.bar-twix{
+    width: 30%;
+}
+.hoti{
+    width: 40%;
+    border-radius: 15px 50px 30px 5px;
+}
+.handy{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+
+}
+.hadi{
+    /* outline: 2px solid red; */
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+}
