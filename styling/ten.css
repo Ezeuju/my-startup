@@ -1,0 +1,41 @@
+.girly{
+    width: 311px;
+    /* padding-top: 5rem; */
+    /* outline: 2px solid red; */
+    margin-right: 6rem;
+    z-index: 1;
+    height: 70vh;
+}
+.girly img{
+    width: 100%;
+}
+.circle{
+    width: 500px;
+    top: 3.74rem;
+    position: absolute;
+    left: 38.9%;
+    
+    
+}
+.circle img{
+    width: 100%;
+
+}
+.handing{
+    position: relative;
+    background-color: #E7E7E7;
+    height: 70vh;
+    
+}
+.text h4 {
+    color: #1D2661;
+}
+.handing p{
+    color: var(--blue-800, #1D2661);
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+

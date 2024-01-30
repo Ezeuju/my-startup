@@ -1,0 +1,12 @@
+.container{
+    width: 100%;
+    /* outline: 2px solid red; */
+}
+.overall{
+    display: block;
+}
+.overall .real{
+    width: 95%;
+    margin: auto;
+    padding-top: 2rem;
+}

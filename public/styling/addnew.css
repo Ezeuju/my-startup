@@ -1,0 +1,96 @@
+body{
+    background-color: #C6C3CD;
+    width: 100%;
+}
+.hed{
+    background-color: #fff;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.logo{
+    width: 50px;
+    
+}
+.logo img{
+    width: 100%;
+}
+.ads h2{
+    color: #000;
+    font-family: Lato;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 25rem;
+    /* margin-left: 30%; */
+    /* width: 60%; */
+}
+.ally{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.addon h4{
+    color: var(--grey-400, #706F6F);
+    text-align: center;
+    font-family: Lato;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0.5rem;
+}
+.rory{
+    display: flex;
+    align-items: center;
+}
+.rory .grey{
+    width: 12px;
+    height: 12px;
+    flex-shrink: 0;
+    background-color: var(--grey-400, #706F6F);
+    border-radius: 10px;
+    margin-right: 10px;
+    /* outline: 2px solid red; */
+}
+.bluerow{
+    border-radius: 7px;
+    border: 1px solid #2B3990;
+}
+.blurr{
+    border-radius: 7px;
+    border: 1px solid #2B3990;
+}
+.save{
+    border-radius: 8px;
+    background: var(--blue-600, #2B3991);
+    width: 180px;
+}
+.savy{
+    border-radius: 8px;
+    background: #fff;
+    width: 180px;
+    color: #2B3991;
+}
+.savy:hover{
+    background-color: #2B3990;
+}
+.acctinfo{
+    width: 90%;
+    background-color: #fff;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 10px;
+}
+.savcol{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
